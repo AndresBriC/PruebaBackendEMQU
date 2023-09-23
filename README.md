@@ -10,6 +10,13 @@ Para correr la prueba, se deberá navegar a la carpeta del proyecto, en este cas
 
 Una vez corriendo, se debe visitar la dirección IP indicada, en este caso http://127.0.0.1:5000. Una vez ahí se podrá hacer el recorrido del sitio de prueba.
 
+Adicionalmente, se requiere crear un archivo .env (que se omitió en este repositorio por cuestiones de seguridad) con las siguientes variables de ambiente usando el formato indicado, que deben contener el nombre de usuario de MySQL y su contraseña, que son usados en el archivo `config.py`: 
+
+```
+SQL_USERNAME='SuUsuarioAquí'
+SQL_PASSWORD='SuContraseñaAquí'
+```
+
 # Areas de oportunidad
 - Verificación correcta por medio de correo electrónico.
 - Front end usando un CSS o algún framework.
