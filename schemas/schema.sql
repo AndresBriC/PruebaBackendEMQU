@@ -1,0 +1,11 @@
+DROP SCHEMA IF EXISTS pruebaEMQU;
+CREATE SCHEMA pruebaEMQU;
+USE pruebaEMQU;
+
+CREATE TABLE equipos(
+    equipo_id INT NOT NULL AUTO_INCREMENT,
+    nombre VARCHAR(254) NOT NULL,
+    direccionIPV4 VARCHAR(16) NOT NULL,
+    isOnline TINYINT(1) NOT NULL,
+    PRIMARY KEY (equipo_id)
+);

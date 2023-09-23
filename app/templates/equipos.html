@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>List of Equipos</title>
+</head>
+<body>
+    <h1>List of Equipos</h1>
+    <ul>
+        {% for equipo in equipos %}
+            <li>{{ equipo.nombre }} - {{ equipo.direccionIPV4 }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
